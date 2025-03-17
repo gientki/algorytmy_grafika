@@ -28,9 +28,9 @@ MyWindow::MyWindow(QWidget *parent)
     // (0xffRRGGBB).
     img = new QImage(szer, wys, QImage::Format_RGB32);
 
-    img1 = new QImage("C:/Users/swete/OneDrive/Pulpit/4.jpg");
-    img2 = new QImage("C:/Users/swete/OneDrive/Pulpit/2.jpg");
-    img3 = new QImage("C:/Users/swete/OneDrive/Pulpit/1.jpg");
+    img1 = new QImage("ścieżka do 1");
+    img2 = new QImage("ścieżka do 2");
+    img3 = new QImage("ścieżka do 3");
 
     mainLayout = new QVBoxLayout(this);
     controlsLayout = new QHBoxLayout(this);
